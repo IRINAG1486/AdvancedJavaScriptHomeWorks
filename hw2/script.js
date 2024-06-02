@@ -126,9 +126,9 @@ const initialData = [
   
   
   buttonElem.addEventListener('click', function () {
-    console.log('jr');
+    console.log('ok');
       try {
-          if (inputElem.value.trim().length < 20 || userInput.value.trim().length > 500) {
+          if (inputElem.value.trim().length < 20 || inputElem.value.trim().length > 500) {
               throw new Error ('Неверная длина текста')
           }
           const newReview = document.createElement('p');
